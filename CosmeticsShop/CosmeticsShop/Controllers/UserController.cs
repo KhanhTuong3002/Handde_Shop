@@ -68,7 +68,7 @@ namespace CosmeticsShop.Controllers
             smtp.UseDefaultCredentials = false;
             smtp.Credentials = new NetworkCredential(FromEmail, Password);
             smtp.EnableSsl = true;
-            smtp.Send(mail);
+            //smtp.Send(mail);
         }
         public ActionResult CheckoutOrder()
         {
